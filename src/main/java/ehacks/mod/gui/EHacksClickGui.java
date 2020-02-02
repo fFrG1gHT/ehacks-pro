@@ -24,21 +24,21 @@ public class EHacksClickGui
 
     //TODO fix all of these being offscreen on scale = auto
     public void initWindows() {
-        windows.add(new WindowPlayer());
-        windows.add(new WindowCombat());
-        windows.add(new WindowRender());
-        windows.add(new WindowMinigames());
-        windows.add(new WindowNoCheatPlus());
-        windows.add(new WindowEHacks());
-        windows.add(new WindowInfo());
-        windows.add(new WindowRadar());
-        windows.add(new WindowActives());
-        windows.add(new WindowPlayerIds());
-        windows.add(new WindowCheckVanish());
-        windows.add(new WindowFakeKeybindings());
-        windows.add(new WindowFakeChatKeybindings());
-        windows.add(new WindowFakeImportConfig());
-        windows.add(new WindowFakeExportConfig());
+        windows.add(new WindowDude());
+        windows.add(new WindowPvP());
+        windows.add(new WindowWHXray());
+        windows.add(new WindowMinigovno());
+        windows.add(new WindowACP++());
+        windows.add(new WindowXVerify());
+        windows.add(new WindowSInfo());
+        windows.add(new WindowListPl());
+        windows.add(new WindowWorkHacks());
+        windows.add(new Windownotverified());
+        windows.add(new WindowVanish());
+        windows.add(new WindowFakeControl());
+        windows.add(new WindowFakeChatControl());
+        windows.add(new WindowFakeLoadCfg());
+        windows.add(new WindowFakeSaveCfg());
         windows.add(new WindowHub());
     }
 
